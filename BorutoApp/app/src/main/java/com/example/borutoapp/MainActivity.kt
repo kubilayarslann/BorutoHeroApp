@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             BorutoAppTheme {
                 navController = rememberNavController()
-                SetupNavGraph(navController = navController)
+                SetupNavGraph(navController = navController )
             }
         }
     }
